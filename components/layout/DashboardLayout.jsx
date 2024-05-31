@@ -7,6 +7,8 @@ import styled from "styled-components";
 const DashboardLayout = ({ children }) => {
     const path = usePathname();
 
+    // console.log('something');
+
     if (path === "/sign-in") {
         return children;
     }
